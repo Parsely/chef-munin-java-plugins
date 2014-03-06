@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe "munin"
+include_recipe "munin::client"
 
 # install munin-java plugins
 %w{munin munin-java-plugins}.each do |pkg|
